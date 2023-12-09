@@ -24,7 +24,7 @@ interface PizzaSliceState {
 }
 
 export const fetchData = createAsyncThunk<FetchItem[]>( 'response/fetchDataStatus', async () => {
-        const { data } = await axios.get<FetchItem[]>('http://localhost:3000/db.json');
+        const { data } = await axios.get<FetchItem[]>('https://my.api.mockaroo.com/pizzas.json?key=a152ed40');
         return data;
     }
 )
