@@ -23,7 +23,8 @@ const ProductPage: React.FC = () => {
     useEffect(() => {
         async function fetchData() {
             try {
-                const { data } = await axios.get('http://localhost:3000/db.json');
+                // https://my.api.mockaroo.com/pizzas.json?key=a152ed40
+                const { data } = await axios.get('https://my.api.mockaroo.com/pizzas.json?key=a152ed40');
                 setItems(data);
             } catch (error) {
                 alert('An error occurred while receiving data😕');
