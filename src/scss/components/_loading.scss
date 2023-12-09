@@ -1,4 +1,25 @@
 .loading {
     padding: 100px 0px;
     text-align: center;
+
+    h1 {
+        @media(max-width: 991.8px) {
+            font-size: 35px;
+        }
+
+        @media(max-width: 659.8px) {
+            font-size: 30px;
+        }
+
+        @media(max-width: 424.8px) {
+            font-size: 24px;
+        }
+    }
+
+    &__gif {
+        max-width: 400px;
+        height: auto;
+        width: 100%;
+        margin: 0 auto 0 auto;
+    }
 }

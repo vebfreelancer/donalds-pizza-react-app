@@ -4,6 +4,20 @@
 
     h1 {
         margin-bottom: 30px;
+
+        @media(max-width: 991.8px) {
+            font-size: 35px;
+            margin-bottom: 20px;
+        }
+
+        @media(max-width: 659.8px) {
+            font-size: 30px;
+        }
+
+        @media(max-width: 424.8px) {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
     }
 
     .come-back-btn {

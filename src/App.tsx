@@ -32,12 +32,12 @@ function App() {
                                 </Suspense>
                             } />
                             <Route path="/product/:id" element={
-                                <Suspense fallback={<div className="container">Loading...</div>}>
+                                <Suspense fallback={<Loading />}>
                                     <ProductPage />
                                 </Suspense>
                             } />
                             <Route path="*" element={
-                                <Suspense fallback={<div className="container">Loading...</div>}>
+                                <Suspense fallback={<Loading />}>
                                     <NotFound />
                                 </Suspense>
                             } />

@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { useNavigate, useParams, Link } from "react-router-dom";
 import axios from 'axios';
 import { currency } from '../utils/currency';
+import { Loading } from '../components';
 
 type Item = {
     id: number;
@@ -36,9 +37,7 @@ const ProductPage: React.FC = () => {
 
     if (!items) {
         return (
-            <div className="container">
-                &quot;Download...&quot;
-            </div>
+            <Loading />
         );
     } 
     
