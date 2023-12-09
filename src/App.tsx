@@ -25,13 +25,13 @@ function App() {
                     <Provider store={store}>
                         <Header />
                         <Routes>
-                            <Route path="/" element={<Home />} />
-                            <Route path="/cart" element={
+                            <Route path="https://vebfreelancer.github.io/donalds-pizza-react-app/" element={<Home />} />
+                            <Route path="https://vebfreelancer.github.io/donalds-pizza-react-app/cart" element={
                                 <Suspense fallback={<div className="container">Loading cart...</div>}>
                                     <Cart />
                                 </Suspense>
                             } />
-                            <Route path="/product/:id" element={
+                            <Route path="https://vebfreelancer.github.io/donalds-pizza-react-app/product/:id" element={
                                 <Suspense fallback={<div className="container">Loading...</div>}>
                                     <ProductPage />
                                 </Suspense>
