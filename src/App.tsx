@@ -1,8 +1,8 @@
 import React, { Suspense } from "react";
 import {
-    BrowserRouter as Router,
 	Routes,
-	Route
+	Route,
+    HashRouter
 } from "react-router-dom";
 
 import { store } from './redux/store';
@@ -21,7 +21,7 @@ function App() {
     return (
         <div className="page-wrapper">
             <div className="content-wrapper">
-                <Router>
+                <HashRouter>
                     <Provider store={store}>
                         <Header />
                         <Routes>
@@ -43,7 +43,7 @@ function App() {
                             } />
                         </Routes>
                     </Provider>
-                </Router>
+                </HashRouter>
             </div>
         </div>
     );
