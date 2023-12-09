@@ -1,0 +1,212 @@
+@import '../variables';
+
+.button {
+  transition: background-color $duration ease-in-out, border-color $duration ease-in-out;
+  background-color: $orange;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  cursor: pointer;
+  @include noselect();
+
+  &,
+  span {
+    color: #fff;
+  }
+
+  i,
+  span,
+  path,
+  svg {
+    transition: all $duration ease-in-out;
+  }
+
+  &:active {
+    background-color: darken($orange, 12%);
+    transform: translateY(1px);
+  }
+
+  @media (min-width: 992px) {
+    &:hover {
+      background-color: darken($orange, 8%);
+    }
+  }
+
+  &--circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    padding: 0;
+    border-width: 2px;
+  }
+
+  &--black {
+    background-color: $black;
+
+    &:hover,
+    &:active {
+      background-color: lighten($color: $black, $amount: 10);
+    }
+  }
+
+  &--outline {
+    background-color: #fff;
+    border-color: $orange;
+    &,
+    span {
+      color: $orange;
+    }
+
+    svg {
+      path {
+        fill: $orange;
+      }
+    }
+
+    @media (min-width: 992px) {
+      &:hover {
+        background-color: $orange;
+  
+        &,
+        span {
+          color: #fff;
+        }
+  
+        svg {
+          path {
+            fill: #fff;
+          }
+        }
+      }
+    }
+
+    &:active {
+      background-color: darken($orange, 8%);
+    }
+  }
+
+  &__delimiter {
+    width: 1px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.25);
+    margin-left: 14px;
+    margin-right: 14px;
+
+    @media (max-width: 659.8px) {
+      display: none;
+    }
+  }
+
+  &--add {
+    min-width: 111px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+
+    svg {
+      margin-right: 2px;
+    }
+
+    span {
+      font-weight: 600;
+      font-size: 16px;
+    }
+
+    @media (min-width: 992px) {
+      &:hover {
+        i {
+          background-color: #fff;
+          color: $orange;
+        }
+      }
+    }
+
+    i {
+      border-radius: 30px;
+      background-color: #fe5f1e;
+      color: #fff;
+      font-weight: 600;
+      width: 25px;
+      height: 18px;
+      font-style: normal;
+      font-size: 13px;
+      line-height: 19.5px;
+    }
+  }
+
+  &--cart {
+    display: inline-flex;
+    align-items: center;
+    line-height: 23px;
+    padding: 12px 25px;
+
+    @media (max-width: 659.8px) {
+      background-color: #fff;
+      padding: 0;
+      margin-top: 10px;
+      gap: 30px;
+      flex-direction: row-reverse;
+      justify-content: flex-end;
+    }
+  }
+
+  &__cart-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+  }
+
+  .button__cart-total {
+    @media (max-width: 659.8px) {
+      font-weight: 700;
+      font-size: 20px;
+      letter-spacing: -1px;
+      color: #fe5f1e;
+    }
+  }
+
+  &__cart-icon {
+    color: #fff;
+    display: flex;
+    align-items: center;
+
+    @media (max-width: 659.8px) {
+      color: #fe5f1e;
+    }
+
+    svg {
+      margin-right: 8px;
+
+      @media (max-width: 659.8px) {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+
+  &__count {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1;
+
+    @media (max-width: 659.8px) {
+      background-color: #fe5f1e;
+      border-radius: 20px;
+      min-width: 30px;
+      height: 20px;
+      padding: 0px 10px;
+      line-height: 20px;
+      text-align: center;
+    }
+  }
+}

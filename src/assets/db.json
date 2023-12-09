@@ -1,0 +1,82 @@
+[
+    {
+        "id": 0,
+        "imageUrl": "./img/pizza-1.jpg",
+        "title": "Pepperoni Fresh with pepper",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 803,
+        "category": 2,
+        "rating": 4
+    },
+    {
+        "id": 1,
+        "imageUrl": "./img/pizza-2.jpg",
+        "title": "Cheese",
+        "types": [0],
+        "sizes": [26, 40],
+        "price": 245,
+        "category": 1,
+        "rating": 2
+    },
+    {
+        "id": 2,
+        "imageUrl": "./img/pizza-3.jpg",
+        "title": "BBQ Chicken",
+        "types": [0],
+        "sizes": [26, 40],
+        "price": 295,
+        "category": 1,
+        "rating": 3
+    },
+    {
+        "id": 3,
+        "imageUrl": "./img/pizza-5.jpg",
+        "title": "Cheeseburger Pizza",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 415,
+        "category": 3,
+        "rating": 3
+    },
+    {
+        "id": 4,
+        "imageUrl": "./img/pizza-7.jpg",
+        "title": "Pepperoni",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 675,
+        "category": 1,
+        "rating": 4
+    },
+    {
+        "id": 5,
+        "imageUrl": "./img/pizza-8.jpg",
+        "title": "Margarita",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 450,
+        "category": 4,
+        "rating": 5
+    },
+    {
+        "id": 6,
+        "imageUrl": "./img/pizza-6.jpg",
+        "title": "Four Seasons",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 395,
+        "category": 5,
+        "rating": 5
+    },
+    {
+        "id": 7,
+        "imageUrl": "./img/pizza-10.jpg",
+        "title": "Vegetables and mushrooms 🌱",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 285,
+        "category": 5,
+        "rating": 4
+    }
+]
