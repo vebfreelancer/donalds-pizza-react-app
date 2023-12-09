@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/donalds-pizza-react-app/static/css/main.c97a301b.css",
+    "main.js": "/donalds-pizza-react-app/static/js/main.00b737d1.js",
+    "Cart.js": "/donalds-pizza-react-app/static/js/Cart.7ff09279.chunk.js",
+    "ProductPage.js": "/donalds-pizza-react-app/static/js/ProductPage.fd88e30f.chunk.js",
+    "NotFound.js": "/donalds-pizza-react-app/static/js/NotFound.399cf39c.chunk.js",
+    "static/media/bg-9.jpg": "/donalds-pizza-react-app/static/media/bg-9.b5dd7ff94bc0fe88b495.jpg",
+    "static/media/empty-cart.svg": "/donalds-pizza-react-app/static/media/empty-cart.903eff3144cd70abf2614eec897d6974.svg",
+    "static/media/pizza-logo.svg": "/donalds-pizza-react-app/static/media/pizza-logo.56ac87032d8f6fdf863326acd06c0d97.svg",
+    "static/media/sort.svg": "/donalds-pizza-react-app/static/media/sort.0ef7580a6ca881240bf8daea8f206758.svg",
+    "index.html": "/donalds-pizza-react-app/index.html",
+    "main.c97a301b.css.map": "/donalds-pizza-react-app/static/css/main.c97a301b.css.map",
+    "main.00b737d1.js.map": "/donalds-pizza-react-app/static/js/main.00b737d1.js.map",
+    "Cart.7ff09279.chunk.js.map": "/donalds-pizza-react-app/static/js/Cart.7ff09279.chunk.js.map",
+    "ProductPage.fd88e30f.chunk.js.map": "/donalds-pizza-react-app/static/js/ProductPage.fd88e30f.chunk.js.map",
+    "NotFound.399cf39c.chunk.js.map": "/donalds-pizza-react-app/static/js/NotFound.399cf39c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c97a301b.css",
+    "static/js/main.00b737d1.js"
+  ]
+}

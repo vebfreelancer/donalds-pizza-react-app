@@ -1,0 +1,82 @@
+[
+    {
+        "id": 0,
+        "imageUrl": "https://vebfreelancer.github.io/images/pizza/pizza-1.jpg",
+        "title": "Pepperoni Fresh with pepper",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 79,
+        "category": 1,
+        "rating": 4
+    },
+    {
+        "id": 1,
+        "imageUrl": "https://vebfreelancer.github.io/images/pizza/pizza-2.jpg",
+        "title": "Cheese",
+        "types": [0],
+        "sizes": [26, 40],
+        "price": 24,
+        "category": 3,
+        "rating": 2
+    },
+    {
+        "id": 2,
+        "imageUrl": "https://vebfreelancer.github.io/images/pizza/pizza-3.jpg",
+        "title": "BBQ Chicken",
+        "types": [0],
+        "sizes": [26, 40],
+        "price": 95,
+        "category": 4,
+        "rating": 3
+    },
+    {
+        "id": 4,
+        "imageUrl": "https://vebfreelancer.github.io/images/pizza/pizza-4.jpg",
+        "title": "Cheeseburger Pizza",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 40,
+        "category": 3,
+        "rating": 3
+    },
+    {
+        "id": 6,
+        "imageUrl": "https://vebfreelancer.github.io/images/pizza/pizza-5.jpg",
+        "title": "Pepperoni",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 59,
+        "category": 1,
+        "rating": 4
+    },
+    {
+        "id": 7,
+        "imageUrl": "https://vebfreelancer.github.io/images/pizza/pizza-7.jpg",
+        "title": "Margarita",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 50,
+        "category": 5,
+        "rating": 5
+    },
+    {
+        "id": 8,
+        "imageUrl": "https://vebfreelancer.github.io/images/pizza/pizza-6.jpg",
+        "title": "Four Seasons",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 39,
+        "category": 1,
+        "rating": 5
+    },
+    {
+        "id": 9,
+        "imageUrl": "https://vebfreelancer.github.io/images/pizza/pizza-8.jpg",
+        "title": "Vegetables and mushrooms 🌱",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 49,
+        "category": 2,
+        "rating": 4
+    }
+]
